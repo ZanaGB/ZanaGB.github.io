@@ -81,6 +81,11 @@ article h2{
 	color: #ffffff;
 }
 
+article hr{
+	border-top: 2px solid #cecece;
+	width: 99%;
+}
+
 article p{
 	color: #cecece;
 	font-family: Chicago, Arial, sans-serif;
