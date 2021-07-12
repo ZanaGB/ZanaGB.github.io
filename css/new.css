@@ -53,6 +53,19 @@ footer p{
 	font-family: ATI;
 }
 
+header img{
+	max-width: 15vw;
+	margin-top: 1.5vw;
+	text-align: center;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	align-items: center;
+	/*margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
 nav{
 	margin: auto;
 	text-align: center;
@@ -60,14 +73,6 @@ nav{
 	align-items: left;
 	justify-content: center;
 	align-items: center;
-}
-
-nav img{
-	max-width: 15vw;
-	/*margin-top: 1.5vwauto;*/
-	/*margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;*/
 }
 
 nav a{
