@@ -1,0 +1,73 @@
+@font-face {
+	font-family: SFRegular;
+	src: url(/font/SFRegular.ttf);
+}
+
+@font-face {
+	font-family: SFBold;
+	src: url(/font/SFBold.ttf);
+}
+
+@font-face {
+  font-family: ATI;
+  src: url(/font/Px437_ATI_8x16.ttf);
+}
+
+nav a{
+	font-family: SFBold;
+}
+
+article h1{
+	font-family: SFBold, Arial, sans-serif;
+}
+
+article h2{
+	font-family: SFBold, Arial, sans-serif;
+}
+
+article h2 a{
+	font-family: SFBold, Arial, sans-serif;
+}
+
+article p{
+	font-family: SFRegular, Arial, sans-serif;
+}
+
+article a{
+	font-family: SFBold, Arial, sans-serif;
+}
+
+table{
+	font-family: SFRegular, Arial, sans-serif;
+}
+
+li{
+	font-family: SFRegular, Arial, sans-serif;
+}
+
+footer p{
+	font-family: ATI;
+}
+
+header img{
+	max-width: 50%;
+	margin-top: /*1.5vw*/auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Portfolio{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-grow: 3;
+	justify-content: center;
+	align-items: center;
+}
+
+.Portfolio img{
+	margin: 2vw 2vw; /*top-bottom then left-right*/	
+	max-height: 20vw;
+	max-width: 20vw;
+}
