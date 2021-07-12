@@ -63,7 +63,7 @@ nav{
 }
 
 nav img{
-	max-width: 25vw;
+	max-width: 15vw;
 	margin-top: /*1.5vw*/auto;
 	/*margin-bottom: auto;
 	margin-left: auto;
@@ -72,8 +72,8 @@ nav img{
 
 nav a{
 	visibility: visible;
-	font-size: /*56px*/3vw;
-	/*margin-right: 8px;*/
+	font-size: /*56px*/2vw;
+	margin-right: 1vw;
 }
 
 img{
