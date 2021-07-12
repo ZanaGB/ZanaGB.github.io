@@ -1,12 +1,12 @@
 @font-face {
 	font-family: SanFrancisco;
 	src: url(/font/SFRegular.ttf);
-  }
+}
 
   @font-face {
 	font-family: SanFranBold;
 	src: url(/font/SFBold.ttf);
-  }
+}
 
 @font-face {
   font-family: BunBun;
