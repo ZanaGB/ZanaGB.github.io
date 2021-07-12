@@ -1,4 +1,14 @@
 @font-face {
+	font-family: SanFrancisco;
+	src: url(/font/SFRegular.ttf);
+  }
+
+  @font-face {
+	font-family: SanFranBold;
+	src: url(/font/SFBold.ttf);
+  }
+
+@font-face {
   font-family: BunBun;
   src: url(/font/bunbun-heroes.ttf);
 }
@@ -72,12 +82,12 @@ article{
 }
 
 article h1{
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFranBold, Arial, sans-serif;
 	color: #ffffff;
 }
 
 article h2{
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFranBold, Arial, sans-serif;
 	color: #ffffff;
 }
 
@@ -88,11 +98,11 @@ article hr{
 
 article p{
 	color: #cecece;
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFrancisco, Arial, sans-serif;
 }
 
 article a{
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFrancisco, Arial, sans-serif;
 	text-decoration: underline;
 	color: #ffffff;
 }
@@ -100,12 +110,12 @@ article a{
 table{
 	border: none;
 	color: #cecece;
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFrancisco, Arial, sans-serif;
 }
 
 li{
 	color: #cecece;
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFrancisco, Arial, sans-serif;
 }
 
 li a{
@@ -117,7 +127,7 @@ li a{
 }
 
 .Emphasis{
-	font-family: Chicago, Arial, sans-serif;
+	font-family: SanFranBold, Arial, sans-serif;
 	color: #ffffff;
 }
 
