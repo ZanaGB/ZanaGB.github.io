@@ -3,7 +3,7 @@
 	src: url(/font/SFRegular.ttf);
 }
 
-  @font-face {
+@font-face {
 	font-family: SanFranBold;
 	src: url(/font/SFBold.ttf);
 }
@@ -87,6 +87,11 @@ article h1{
 }
 
 article h2{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+article h2 a{
 	font-family: SanFranBold, Arial, sans-serif;
 	color: #ffffff;
 }
