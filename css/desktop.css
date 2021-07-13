@@ -119,7 +119,7 @@ tr{
 
 .Portfolio img{
 	margin: 2vw 2vw; /*top-bottom then left-right*/	
-	max-height: 25vw;
+	max-height: 25vw; /*comment*/
 	max-width: 25vw;
 	overflow: hidden;
 }
