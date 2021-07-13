@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Standard header declarations and "mobile viewport fix". -->
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="/css/new.css"/>
+		<!--Old Mobile Viewport Fix and viewport-specific CSS load.-->
+		<!--This would, back on the day, load a custom CSS based on the device's viewport's horizontal resolution-->
+		<!--"main.css" would have been loaded at this point, containing all font and colour definitions for each thing. "mobile.css" and "desktop.css" would load the rest of the parameters. Actual spacing, behaviour of all of the classes, padding, behavioud of the portfolio class intended to hold more than one image...-->
+		<!-- -->
 		<!--<link rel="stylesheet" media="only screen and (min-width: 480px) and (max-width: 1200px)" href="/css/mobile.css"/>-->
 		<!--<link rel="stylesheet" media="only screen and (min-width: 1280px)" href="/css/desktop.css"/>-->
+		<!-- -->
 		<meta charset="UTF-8">
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ZanaGB's Homepage</title>
 	</head>
 	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<header>
 			<img src="/img/index/Big_Logo.png"></img>
 		</header>
@@ -28,7 +35,7 @@
 			<p>Individual Image Time</p>
 			<img src="/img/index/TestBun.jpg"></img>
 			<p>A Portfolio type Block now:</p>
-			<div class="Portfolio">	
+			<div>	
 				<img src="/articles/bimbophilosophy/Before.png"></img>
 				<img src="/articles/bimbophilosophy/bimbun.png"></img>
 				<img src="/articles/bimbophilosophy/FirstReference.png"></img>
@@ -38,7 +45,7 @@
 			<hr>
 			<h2><a href="/index.html">And an h2 test. This time with A LINK!</a></h2>
 			<p>Now a code block will follow</p>
-			<p class="Monospace">Here's where i'd have my monospace block... If i defined it on CSS</p>
+			<p>Here's where i'd have my monospace block... If i defined it on CSS</p>
 			<p>And one last paragraph, this one will be long to test some other random properties like how text will wrap around on smaller devices, on top of providing some filler to see how scrolling works, if any. Honestly compared to the table based design this is a lot cleaner. I need to find a way a way to do CSS indentation instead of hacking spaces in the HTML code. I will maybe create a class of one tab, two tabs, three tabs, four tabs, five tabs, six tabs, seven tabs and eight tabs, i hope i don't need to tabulate any code for that long but nobody knows. It's something that ought to work</p>
 		</article>
 		<p>(C) 2014-2021 ZanaGB -- Living now as a <a href="https://pages.github.com/">GitHub Pages</a> Instance</p>
