@@ -121,6 +121,13 @@ tr{
 	margin: 2vw 2vw; /*top-bottom then left-right*/	
 	max-height: 25vw;
 	max-width: 25vw;
+	overflow: hidden;
+}
+
+.Portfolio a{
+    width: 30vw; /* width of container */
+    height: 30vw; /* height of container */
+    overflow: hidden;
 }
 
 .CodeBlock{
