@@ -124,11 +124,11 @@ tr{
 	overflow: hidden;
 }
 
-.Portfolio a{
-    width: 30vw; /* width of container */
-    height: 30vw; /* height of container */
+/*.Portfolio a{
+    width: 30vw;
+    height: 30vw; 
     overflow: hidden;
-}
+}*/
 
 .CodeBlock{
 	display: block;
