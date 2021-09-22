@@ -1,0 +1,175 @@
+@font-face {
+	font-family: SanFrancisco;
+	src: url(/font/SFRegular.ttf);
+}
+
+@font-face {
+	font-family: SanFranBold;
+	src: url(/font/SFBold.ttf);
+}
+
+@font-face {
+  font-family: BunBun;
+  src: url(/font/bunbun-heroes.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(/font/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: UbuntuBold;
+  src: url(/font/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Chicago;
+  src: url(/font/ChicagoFLF.ttf);
+}
+
+@font-face {
+  font-family: ATI;
+  src: url(/font/Px437_ATI_8x16.ttf);
+}
+
+body {
+	background-color: #575790;
+}
+
+nav{
+	background-color: #ce3474;
+}
+
+.Button{
+	font-family: BunBun;
+	color: #ffffff;
+	background-color: #ce3474;
+}
+
+.Button:hover{
+	background-color: #ff9090;
+}
+
+.Button:active{
+	background-color: #ff9090;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: BunBun;
+}
+
+.Selected{
+	background-color: #ff9090;
+}
+
+.Selected:hover {
+    background-color: #ffacac;
+}
+
+.Unselected{
+    background-color: #ff5774;
+}
+
+.Unselected:hover {
+    background-color: #ff9090;
+}
+
+article{
+	background-color: #343434;
+}
+
+article h1{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+article h2{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+article h2 a{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+article hr{
+	border-top: 2px solid #cecece;
+	width: 99%;
+}
+
+article p{
+	color: #cecece;
+	font-family: SanFrancisco, Arial, sans-serif;
+}
+
+article a{
+	font-family: SanFrancisco, Arial, sans-serif;
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+table{
+	border: none;
+	color: #cecece;
+	font-family: SanFrancisco, Arial, sans-serif;
+}
+
+li{
+	color: #cecece;
+	font-family: SanFrancisco, Arial, sans-serif;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.ArticleChapter a{
+	text-decoration: none;
+}
+
+.Emphasis{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.CodeBlock{
+	background-color: #000000;
+}
+
+.CodeBlock p{
+	font-family: ATI;
+	color: #ffce57;
+}
+
+.CodeComment{
+	color: #ce90ff;
+}
+
+.FileComment{
+	color: #90ffce;
+}
+
+footer{
+	width: 96vw;
+	margin-left: 2vw;
+	margin-right: 2vw;
+    	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: 0;
+}
+
+footer p{
+	font-family: ATI;
+	color: #ffffff;
+}
+
+footer a{
+	text-decoration: none;
+	color: #ffffff;
+}	
