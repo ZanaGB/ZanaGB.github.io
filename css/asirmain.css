@@ -117,6 +117,10 @@ article a{
 	color: #ffffff;
 }
 
+section{
+	background-color: #343434;
+}
+
 table{
 	border: none;
 	color: #cecece;
