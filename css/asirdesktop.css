@@ -85,7 +85,46 @@ article img{
 	margin: 1vw/*32px*/ auto; /*top-bottom then left-right*/
 }
 
-ul {
+section{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;
+	align-items: center;*/
+	justify-content: center;
+	border-top: 4px #000000 solid;
+	padding-bottom: 1vw;
+	margin-bottom: 1.7vw;
+	box-shadow: -0.4vw 0.4vw #343474;
+}
+
+section h1{
+	display:block;
+	font-size: /*48px*/3vw;
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+}
+
+section h2{
+	font-size: /*48px*/2vw;
+	margin: 1vw 1.5vw;
+}
+
+section p{
+	text-align: left;
+	margin: 1vw 1.5vw; /*top-bottom then left-right*/
+	font-size: /*24px;*/1vw;
+}
+
+section img{
+	display: block;
+	max-width: 75%;
+	margin: 1vw/*32px*/ auto; /*top-bottom then left-right*/
+}
+
+ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;

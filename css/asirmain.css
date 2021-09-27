@@ -9,6 +9,11 @@
 }
 
 @font-face {
+	font-family: SanFranItalic;
+	src: url(/font/SFItalic.ttf);
+}
+
+@font-face {
   font-family: BunBun;
   src: url(/font/bunbun-heroes.ttf);
 }
@@ -133,6 +138,11 @@ li a{
 
 .Emphasis{
 	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+.Italics{
+	font-family: SanFranItalic, Arial, sans-serif;
 	color: #ffffff;
 }
 
