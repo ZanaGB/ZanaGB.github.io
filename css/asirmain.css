@@ -121,6 +121,38 @@ section{
 	background-color: #343434;
 }
 
+section h1{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+section h2{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+section h2 a{
+	font-family: SanFranBold, Arial, sans-serif;
+	color: #ffffff;
+}
+
+section hr{
+	border-top: 2px solid #cecece;
+	width: 99%;
+}
+
+section p{
+	color: #cecece;
+	font-family: SanFrancisco, Arial, sans-serif;
+}
+
+section a{
+	font-family: SanFrancisco, Arial, sans-serif;
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
 table{
 	border: none;
 	color: #cecece;
