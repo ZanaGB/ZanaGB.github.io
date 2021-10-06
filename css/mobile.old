@@ -100,39 +100,6 @@ article img{
 	margin-right: auto;
 }
 
-section{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-top: 1vw;
-	padding-bottom: 1vw;
-}
-
-section h1{
-	font-size: 12vw;
-	text-align: center;
-}
-
-section h2{
-	font-size: 8vw;
-	text-align: center;
-}
-
-section p{
-	font-size: min(3vw);
-	font-size: max(6vw);
-	margin-left: 2vw;
-	margin-right: 2vw;
-}
-
-section img{
-	display: block;
-	max-width:80vw;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 ul {
 	list-style-type: none;
 	margin: 0;
