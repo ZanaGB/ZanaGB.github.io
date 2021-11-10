@@ -76,15 +76,18 @@ article{
 }
 
 footer{
-    border-image-source: url(/SMB/img/bg/platformborder.png);
+    border-style: 16px solid transparent;;
     background-image: url(/SMB/img/bg/filler.png);
+    border-image-source: url(/SMB/img/bg/platformborder.png);
     background-repeat: repeat;
     border-image-slice: 16;
     border-image-width: 16;
     border-image-outset: 1;
     border-image-repeat: repeat;
-    height:40vh;
-    width:20vh;
+    image-rendering: pixelated;
+    height:10vh;
+    width:40vh;
+    z-index: 1;
 }
 
 .pixelart{
