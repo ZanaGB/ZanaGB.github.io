@@ -21,12 +21,13 @@ body{
 
 
 header{
+    min-height:10w;
     background: url(/SMB/img/bg/clouds.png) top left repeat-x;
     overflow: hidden;
     animation: slide 60s linear infinite;
     image-rendering: pixelated;
-    min-height: 300%;
 }
+
   
 @keyframes slide{
     0% {
@@ -38,12 +39,12 @@ header{
   }
 
 footer{
+    min-height:10w;
     background: url(/SMB/img/bg/mountains.png);
     background-position: left bottom;
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    min-height: 300%;
     /*background-size: contain;*/
     /*background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;*/
     /*background-size: 100%;*/
