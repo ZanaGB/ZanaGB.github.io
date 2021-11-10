@@ -13,21 +13,22 @@
 	src: url(/SMB/fnt/MKDS.ttf);
 }
 html {
-    height: 100%;
+    
 }
 body{
-    background-color: #0060b8;
     /*background-image: url(/SMB/img/bg/clouds.png), url(/SMB/img/bg/mountains.png);
     background-position: left top, left bottom;
     background-repeat: repeat-x, repeat-x;
     background-size: contain;
     image-rendering: pixelated;*/
     background: url(/SMB/img/bg/clouds.png) left top repeat-x, url(/SMB/img/bg/mountains.png) 0% 25% repeat-x;
+    background-color: #0060b8;
+    background-size: 100%;
     /*background-size: contain;*/
 }
 
 body.img{
-    min-height:200%;
+    min-height:300%;
     image-rendering: pixelated;
 }
 
