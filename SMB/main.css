@@ -23,7 +23,7 @@ body{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    background-size: auto 50vh;
+    background-size: auto 65vh;
     position: relative;
     z-index: 1;
     /*background-size: contain;*/
@@ -34,10 +34,10 @@ body{
 
 @keyframes bgScroll {
   0% {
-    background-position : 0vh 0vh
+    background-position : 0px 0px
   }
   100% {
-    background-position : -1024vh 0vh
+    background-position : -1024px 0px
   }
 }
 
@@ -54,7 +54,7 @@ header{
     background-attachment: fixed;
     */
     background-image: url(/SMB/img/bg/clouds.png);
-    height: 50vh;
+    height: 65vh;
     background-position: left top;
     background-repeat: repeat-x;
     image-rendering: pixelated;
@@ -89,8 +89,8 @@ footer{
     border-image-repeat: repeat;
     */
     position: fixed; 
-    bottom: 32px;
-    left: 32px;
+    bottom: 0px;
+    left: 0px;
     margin: 0;
     background-image: url(/SMB/img/bg/filler.png);
     background-repeat: repeat;
