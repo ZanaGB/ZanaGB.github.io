@@ -68,11 +68,13 @@ header{
 article{
     background-color: #000000;
     position: relative;
-    z-index: 32;
+    z-index: 16;
     font-family: SuperMarioWorld;
     color: #FFFFFF;
     padding: 4vh;
-    font-size: 4vw;
+    font-size: 1vw;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
 }
 
 footer{
@@ -86,6 +88,7 @@ footer{
     border-image-repeat: repeat;
     */
     position:bottom left;
+    margin: 0;
     background-image: url(/SMB/img/bg/filler.png);
     background-repeat: repeat;
     height:10vh;
