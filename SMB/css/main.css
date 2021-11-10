@@ -28,10 +28,23 @@ body{
     /*background-size: contain;*/
 }
 
+body.img{
+    min-height:300%;
+}
+
+.pixelart{
+     image-rendering: pixelated;
+}
+
 header{
     background: url(/SMB/img/bg/clouds.png) top left repeat-x;
     overflow: hidden;
     animation: slide 60s linear infinite;
+    image-rendering: pixelated;
+}
+
+header.img{
+    min-height:300%;
 }
   
   @keyframes slide{
@@ -43,11 +56,3 @@ header{
     }
   }
 
-body.img{
-    min-height:300%;
-    /*image-rendering: pixelated;/*
-}
-
-.pixelart{
-     image-rendering: pixelated;
-}
