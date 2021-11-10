@@ -1,0 +1,25 @@
+@font-face {
+	font-family: SuperMarioWorld;
+	src: url(/SMB/fnt/SMW.ttf);
+}
+
+@font-face {
+	font-family: SuperMarioUSA;
+	src: url(/SMB/fnt/SMB2.ttf);
+}
+
+@font-face {
+	font-family: MarioKart;
+	src: url(/SMB/fnt/MKDS.ttf);
+}
+
+body{
+    background-color: #0060b8;
+    background-image: url(/SMB/img/bg/clouds.png), url(/SMB/img/bg/mountain.png);
+    background-position: right bottom, left bottom;
+    background-repeat: repeat-x, repeat-x;
+}
+
+.pixelart{
+     image-rendering: pixelated;
+}
