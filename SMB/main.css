@@ -70,6 +70,7 @@ article{
     position: relative;
     z-index: 32;
     font-family: SuperMarioWorld;
+    color: #FFFFFF
     padding:4vh;
     font-size: 4vw;
 }
