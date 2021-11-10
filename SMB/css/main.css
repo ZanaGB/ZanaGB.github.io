@@ -12,7 +12,9 @@
 	font-family: MarioKart;
 	src: url(/SMB/fnt/MKDS.ttf);
 }
-
+html {
+    height: 100%;
+}
 body{
     background-color: #0060b8;
     /*background-image: url(/SMB/img/bg/clouds.png), url(/SMB/img/bg/mountains.png);
@@ -20,7 +22,7 @@ body{
     background-repeat: repeat-x, repeat-x;
     background-size: contain;
     image-rendering: pixelated;*/
-    background: url(/SMB/img/bg/clouds.png) left top repeat-x, url(/SMB/img/bg/mountains.png) left bottom repeat-x;
+    background: url(/SMB/img/bg/clouds.png) left top repeat-x, url(/SMB/img/bg/mountains.png) 0% 25% repeat-x;
     /*background-size: contain;*/
 }
 
