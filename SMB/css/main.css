@@ -39,7 +39,7 @@ body{
   }
 
 header{
-    min-height:10w;
+    height:10w;
     background: url(/SMB/img/bg/clouds.png) top left repeat-x;
     overflow: hidden;
     animation: slide 60s linear infinite;
