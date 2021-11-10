@@ -42,8 +42,8 @@ body{
 }
 
 header{
-    padding: 0vh -2vh;
-    margin: 0vh -2vh;
+    /*padding: 0vh -2vh;*/
+    margin: 0vh 0vh;
     /*
     background-position: left top;
     background-repeat: repeat-x;
@@ -60,7 +60,7 @@ header{
     image-rendering: pixelated;
     background-attachment: fixed;
     /*background-size:auto 45vh;*/
-    animation: bgScroll 5s linear infinite;
+    animation: bgScroll 15s linear infinite;
     position: relative;
     z-index: 1;
 }
