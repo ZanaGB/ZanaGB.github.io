@@ -79,8 +79,9 @@ article{
 
 footer{
     image-rendering: pixelated;
-    border: 16px solid transparent;
-    border-image-source: url(/SMB/img/bg/platformborder.png) 16 repeat;
+    border: 32px solid transparent;
+    padding: 16px;
+    border-image: url(/SMB/img/bg/platformborder.png) 16 repeat;
     /*
     border-image-slice: 16;
     border-image-width: 16;
