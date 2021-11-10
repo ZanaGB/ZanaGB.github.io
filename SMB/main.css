@@ -88,7 +88,7 @@ footer{
     border-image-outset: 1;
     border-image-repeat: repeat;
     */
-    position:bottom left;
+    position: bottom left;
     margin: 0;
     background-image: url(/SMB/img/bg/filler.png);
     background-repeat: repeat;
