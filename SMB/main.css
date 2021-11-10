@@ -66,34 +66,42 @@ header{
 }
 
 article{
-  background-color: #000000;
-  position: relative;
-  z-index: 32;
-  font-family: SuperMarioWorld;
-  padding:4vh;
-  font-size: 4vw;
+    background-color: #000000;
+    position: relative;
+    z-index: 32;
+    font-family: SuperMarioWorld;
+    padding:4vh;
+    font-size: 4vw;
 }
 
 footer{
-    
+    border-image-source: url(/SMB/img/bg/platformborder.png);
+    background-image: url(/SMB/img/bg/filler.png);
+    background-repeat: repeat;
+    border-image-slice: 16;
+    border-image-width: 16;
+    border-image-outset: 1;
+    border-image-repeat: repeat;
+    height:40vh;
+    width:20vh;
 }
 
 .pixelart{
-     image-rendering: pixelated;
+    image-rendering: pixelated;
 }
 
 .Portfolio{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	flex-grow: 3;
-	justify-content: center;
-	align-items: center;
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: row;
+	  flex-grow: 3;
+	  justify-content: center;
+	  align-items: center;
 }
 
 .Portfolio img{
-	margin: 2vw 2vw; /*top-bottom then left-right*/	
-	max-height: 25vw; /*comment*/
-	max-width: 25vw;
-	overflow: hidden;
+  	margin: 2vw 2vw; /*top-bottom then left-right*/	
+  	max-height: 25vw; /*comment*/
+  	max-width: 25vw;
+  	overflow: hidden;
 }
