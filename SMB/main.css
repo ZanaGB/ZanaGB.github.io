@@ -59,7 +59,7 @@ header{
     image-rendering: pixelated;
     background-attachment: fixed;
     background-size:auto 45vh;
-    animation: bgScroll 20s linear infinite;
+    animation: bgScroll 5s linear infinite;
     position: relative;
     z-index: 1;
 }
