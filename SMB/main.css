@@ -85,6 +85,7 @@ footer{
     border-image-outset: 1;
     border-image-repeat: repeat;
     */
+    position:bottom left;
     background-image: url(/SMB/img/bg/filler.png);
     background-repeat: repeat;
     height:10vh;
