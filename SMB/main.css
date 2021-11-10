@@ -60,7 +60,7 @@ header{
     image-rendering: pixelated;
     background-attachment: fixed;
     /*background-size:auto 45vh;*/
-    animation: bgScroll 25s linear infinite;
+    animation: bgScroll 40s linear infinite;
     position: relative;
     z-index: 1;
 }
@@ -74,15 +74,14 @@ article{
     padding: 4vh;
     font-size: 1vw;
     margin-bottom: 4vh;
-    margin-top: 4vh;
+    /*margin-top: 4vh;*/
 }
 
 footer{
-    image-rendering: pixelated;
-    border: 64px solid transparent;
+    border: 32px solid transparent;
     padding: 32px;
     background-size: 32px;
-    border-image: url(/SMB/img/bg/platformborder.png) 32 repeat;
+    border-image: url(/SMB/img/bg/platformborder.png) 16 round;
     /*
     border-image-slice: 16;
     border-image-width: 16;
@@ -98,6 +97,7 @@ footer{
     height:10vh;
     width:40vh;
     z-index: 32;
+    image-rendering: pixelated;
 }
 
 .pixelart{
