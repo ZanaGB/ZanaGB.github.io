@@ -34,10 +34,10 @@ body{
 
 @keyframes bgScroll {
   0% {
-    background-position : 0px 0px
+    background-position : 0vh 0vh
   }
   100% {
-    background-position : -1024px 0px
+    background-position : -1024vh 0vh
   }
 }
 
