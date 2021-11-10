@@ -21,12 +21,27 @@ body{
     background-repeat: repeat-x, repeat-x;
     background-size: contain;
     image-rendering: pixelated;*/
-    background: url(/SMB/img/bg/clouds.png) top left repeat-x, url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;
+    background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;
     background-size: 100%;
     image-rendering: pixelated;
     /*background-color: #0060b8;*/
     /*background-size: contain;*/
 }
+
+header{
+    background: url(/SMB/img/bg/clouds.png) top left repeat-x;
+    overflow: hidden;
+    animation: slide 60s linear infinite;
+}
+  
+  @keyframes slide{
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
 
 body.img{
     min-height:300%;
