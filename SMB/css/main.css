@@ -47,7 +47,7 @@ header.img{
     min-height:300%;
 }
   
-  @keyframes slide{
+@keyframes slide{
     0% {
       transform: translate3d(0, 0, 0);
     }
@@ -56,3 +56,18 @@ header.img{
     }
   }
 
+.Portfolio{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-grow: 3;
+	justify-content: center;
+	align-items: center;
+}
+
+.Portfolio img{
+	margin: 2vw 2vw; /*top-bottom then left-right*/	
+	max-height: 25vw; /*comment*/
+	max-width: 25vw;
+	overflow: hidden;
+}
