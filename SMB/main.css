@@ -54,6 +54,7 @@ header{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
+    background-size:auto 100%;
     animation: bgScroll 20s linear infinite;
 }
 
