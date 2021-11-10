@@ -23,7 +23,7 @@ body{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    background-size: auto 45vh;
+    background-size: auto 50vh;
     position: relative;
     z-index: 1;
     /*background-size: contain;*/
@@ -42,8 +42,8 @@ body{
 }
 
 header{
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0vh -2vh;
+    margin: 0vh -2vh;
     /*
     background-position: left top;
     background-repeat: repeat-x;
@@ -54,7 +54,7 @@ header{
     background-attachment: fixed;
     */
     background-image: url(/SMB/img/bg/clouds.png);
-    height: 45vh;
+    height: 50vh;
     background-position: left top;
     background-repeat: repeat-x;
     image-rendering: pixelated;
