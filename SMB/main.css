@@ -22,29 +22,41 @@ body{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    min-height:10w;
+    background-size: auto 30vh;
     /*background-size: contain;*/
     /*background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;*/
     /*background-size: 100%;*/
     /*background-size: contain;*/
 }
 
-@keyframes slide{
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-    100% {
-      transform: translate3d(-1692px, 0, 0);
-    }
+@keyframes bgScroll {
+  0% {
+    background-position : 0px 0px
   }
+  100% {
+    background-position : 800px 0px
+  }
+}
 
 header{
-    height:10w;
-    background: url(/SMB/img/bg/clouds.png) top left repeat-x;
+    /*
+    background-position: left top;
+    background-repeat: repeat-x;
+    height: 30vw;
     overflow: hidden;
     animation: slide 60s linear infinite;
     image-rendering: pixelated;
+    background-attachment: fixed;
+    */
+    background-image: url(/SMB/img/bg/clouds.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    image-rendering: pixelated;
+    background-attachment: fixed;
+    min-height: 10w;
+    animation: bgScroll 20s linear infinite;
 }
+
 
 footer{
     
