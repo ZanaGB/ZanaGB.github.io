@@ -59,7 +59,7 @@ header{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    background-size:auto 100%;
+    background-size:auto 80%;
     animation: bgScroll 40s linear infinite;
     position: relative;
     z-index: 1;
@@ -100,6 +100,10 @@ footer{
     width:40vh;
     z-index: 32;
     image-rendering: pixelated;
+}
+
+.blankspace{
+  height:50vh;
 }
 
 .pixelart{
