@@ -15,6 +15,7 @@
 html {
     
 }
+
 body{
     background-color: #0060b8;
     background-image: url(/SMB/img/bg/mountains.png);
@@ -23,6 +24,8 @@ body{
     image-rendering: pixelated;
     background-attachment: fixed;
     background-size: auto 30vh;
+    position: relative;
+    z-index: 1;
     /*background-size: contain;*/
     /*background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;*/
     /*background-size: 100%;*/
@@ -57,8 +60,14 @@ header{
     background-attachment: fixed;
     background-size:auto 60vh;
     animation: bgScroll 20s linear infinite;
+    position: relative;
+    z-index: 1;
 }
 
+main{
+  position: relative;
+  z-index: 32;
+}
 
 footer{
     
