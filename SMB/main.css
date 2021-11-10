@@ -64,7 +64,7 @@ header{
     z-index: 1;
 }
 
-main{
+article{
   position: relative;
   z-index: 32;
 }
