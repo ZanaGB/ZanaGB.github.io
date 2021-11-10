@@ -60,14 +60,18 @@ header{
     image-rendering: pixelated;
     background-attachment: fixed;
     /*background-size:auto 45vh;*/
-    animation: bgScroll 15s linear infinite;
+    animation: bgScroll 25s linear infinite;
     position: relative;
     z-index: 1;
 }
 
 article{
+  background-color: #000000;
   position: relative;
   z-index: 32;
+  font-family: SuperMarioWorld;
+  padding:4vh;
+  font-size: 4vw;
 }
 
 footer{
