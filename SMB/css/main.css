@@ -21,14 +21,11 @@ body{
 
 
 header{
-    background-image: url(/SMB/img/bg/clouds.png) top left repeat-x;
+    background: url(/SMB/img/bg/clouds.png) top left repeat-x;
     overflow: hidden;
     animation: slide 60s linear infinite;
     image-rendering: pixelated;
-}
-
-header.img{
-    min-height:300%;
+    min-height: 300%;
 }
   
 @keyframes slide{
@@ -41,19 +38,16 @@ header.img{
   }
 
 footer{
-    background-image:  url(/SMB/img/bg/mountains.png);
+    background: url(/SMB/img/bg/mountains.png);
     background-position: left bottom;
     background-repeat: repeat-x;
     image-rendering: pixelated;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    min-height: 300%;
     /*background-size: contain;*/
     /*background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;*/
     /*background-size: 100%;*/
     /*background-size: contain;*/
-}
-
-footer.img{
-    min-height:300%;
 }
 
 .pixelart{
