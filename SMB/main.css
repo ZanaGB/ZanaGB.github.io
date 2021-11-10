@@ -70,21 +70,23 @@ article{
     position: relative;
     z-index: 32;
     font-family: SuperMarioWorld;
-    color: #FFFFFF
-    padding:4vh;
+    color: #FFFFFF;
+    padding: 4vh;
     font-size: 4vw;
 }
 
 footer{
-    border-style: 16px solid transparent;;
-    background-image: url(/SMB/img/bg/filler.png);
-    border-image-source: url(/SMB/img/bg/platformborder.png);
-    background-repeat: repeat;
+    image-rendering: pixelated;
+    border: 16px solid transparent;
+    border-image-source: url(/SMB/img/bg/platformborder.png) 16 repeat;
+    /*
     border-image-slice: 16;
     border-image-width: 16;
     border-image-outset: 1;
     border-image-repeat: repeat;
-    image-rendering: pixelated;
+    */
+    background-image: url(/SMB/img/bg/filler.png);
+    background-repeat: repeat;
     height:10vh;
     width:40vh;
     z-index: 1;
