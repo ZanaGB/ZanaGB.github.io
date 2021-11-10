@@ -22,7 +22,7 @@ body{
     background-repeat: repeat-x;
     image-rendering: pixelated;
     background-attachment: fixed;
-    background-size: auto 30vh;
+    background-size: auto 40vh;
     /*background-size: contain;*/
     /*background: url(/SMB/img/bg/mountains.png) bottom left repeat-x #0060b8;*/
     /*background-size: 100%;*/
