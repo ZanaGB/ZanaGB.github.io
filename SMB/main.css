@@ -85,7 +85,7 @@ article p{
 article h1{
   font-family: MarioKart;
   color: #FFFFFF;
-  font-size: 3vw;
+  font-size: 4vw;
   text-align: center;
 }
 
@@ -111,7 +111,7 @@ article h1{
 }
 @keyframes y {
    to {
-     top:629.5px;
+     top:62 9.5px;
     }
 }
 @keyframes x {
