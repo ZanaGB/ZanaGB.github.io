@@ -53,7 +53,7 @@ header{
     image-rendering: pixelated;
     background-attachment: fixed;
     */
-    margin: -5vh;
+    margin: -15vh;
     background-image: url(/SMB/img/bg/clouds.png);
     height: 65vh;
     background-position: left top;
