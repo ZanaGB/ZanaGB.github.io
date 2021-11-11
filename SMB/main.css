@@ -108,7 +108,7 @@ article{
 
 .mario{
     margin-top: auto;
-    margin-bottom: 0%;
+    margin-bottom: auto;
     position:fixed;
     width:1vh;
     height:2px;
@@ -116,6 +116,7 @@ article{
     image-rendering: pixelated;
     left:10px;
     top:200px;
+    z-index: 32;
     animation:
       x 2s linear infinite alternate,
       y 1s infinite cubic-bezier(0,255,1,255);
