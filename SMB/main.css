@@ -108,6 +108,7 @@ article{
    }
    100%{
     transform: scaleX(-1);
+    transform: scaleX(-1);
    }
 }
 @keyframes x {
