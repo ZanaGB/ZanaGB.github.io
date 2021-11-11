@@ -100,23 +100,24 @@ article{
     y 1s infinite cubic-bezier(0,255,1,255);
 }
 @keyframes y {
+   to {
+     top:199.5px;
+   }
+}
+@keyframes x {
    0%{
     transform: scaleX(1);
    }
    to {
-     top:199.5px;
+     left:250px;
    }
    100%{
     transform: scaleX(-1);
    }
-}
-@keyframes x {
-   to {
-     left:250px;
-   }
    /*100%{
     /*-webkit-transform: scaleX(-1);
    }*/
+  
 }
 
 
