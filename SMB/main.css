@@ -83,6 +83,33 @@ article{
   height:64vh;
 }
 
+.mario{
+  margin-top: auto;
+  margin-bottom: auto;
+  position:fixed;
+  background-image: url(/SMB/img/bg/mario.png);
+  width:4vh;
+  height:8vh;
+  image-rendering: pixelated;
+  left:10px;
+  /*top: 200px;*/
+  z-index: 32;
+  animation:
+    x 2s linear infinite alternate,
+    y 1s infinite cubic-bezier(0,255,1,255);
+}
+@keyframes y {
+   to {
+     top:199.5px;
+   }
+}
+@keyframes x {
+   to {
+     left:250px;
+   }
+}
+
+
 .platform{
     border: 32px solid transparent;
     padding: 32px;
@@ -105,33 +132,6 @@ article{
     z-index: 32;
     image-rendering: pixelated;
 }
-
-.mario{
-    margin-top: auto;
-    margin-bottom: auto;
-    position:fixed;
-    background-image: url(/SMB/img/bg/mario.png);
-    width:4vh;
-    height:8vh;
-    image-rendering: pixelated;
-    left:10px;
-    /*top: 640px;*/
-    z-index: 32;
-    animation:
-      x 2s linear infinite alternate,
-      y 1s infinite cubic-bezier(0,255,1,255);
-  }
-  @keyframes y {
-     to {
-       top:199.5px;
-     }
-  }
-  @keyframes x {
-     to {
-       left:250px;
-     }
-}
-
 
 
 .pixelart{
