@@ -101,7 +101,7 @@ article{
 }
 @keyframes y {
    0%{
-    
+    transform: scaleX(1);
    }
    to {
      top:199.5px;
