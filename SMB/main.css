@@ -115,7 +115,7 @@ article{
     height:6vh;
     image-rendering: pixelated;
     left:10px;
-    top:64vh;
+    top: 640px;
     z-index: 32;
     animation:
       x 2s linear infinite alternate,
