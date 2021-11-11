@@ -107,15 +107,15 @@ article{
 }
 
 .mario{
-    /*margin-top: auto;
-    margin-bottom: auto;*/
+    margin-top: auto;
+    margin-bottom: auto;
     position:fixed;
     background-image: url(/SMB/img/bg/mario.png);
-    width:3vh;
-    height:6vh;
+    width:4vh;
+    height:8vh;
     image-rendering: pixelated;
     left:10px;
-    top: 640px;
+    /*top: 640px;*/
     z-index: 32;
     animation:
       x 2s linear infinite alternate,
