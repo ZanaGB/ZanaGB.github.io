@@ -37,7 +37,7 @@ body{
     background-position : 0px 0px
   }
   100% {
-    background-position : -1024px 0px
+    background-position : -1536px 0px
   }
 }
 
@@ -93,7 +93,7 @@ article{
   height:128px;
   image-rendering: pixelated;
   left:10px;
-  top: 500px;
+  top: 3vh;
   z-index: 32;
   animation:
     x 4s linear infinite,
@@ -101,8 +101,9 @@ article{
 }
 @keyframes y {
    to {
-     top:499.5px;
-   }
+    top:3vh;
+     /*top:499.5px;*/
+    }
 }
 @keyframes x {
    0%{
