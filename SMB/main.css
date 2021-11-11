@@ -76,13 +76,13 @@ article{
     /*margin-top: 4vh;*/
 }
 
-article.p{
+article p{
   font-family: SuperMarioWorld;
   color: #FFFFFF;
   font-size: 1vw;
 }
 
-article.h1{
+article h1{
   font-family: MarioKart;
   color: #FFFFFF;
   font-size: 3vw;
