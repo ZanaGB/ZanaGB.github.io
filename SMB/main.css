@@ -106,7 +106,7 @@ article{
 }
 @keyframes x {
    0%{
-    transform: scaleX(1);
+    transform: scaleX(-1);
    }
    1%{
     transform: scaleX(1);
@@ -115,7 +115,7 @@ article{
      left:250px;
    }
    99%{
-    transform: scaleX(-1);
+    transform: scaleX(1);
    }
    100%{
     transform: scaleX(-1);
