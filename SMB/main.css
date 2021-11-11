@@ -110,9 +110,9 @@ article{
     /*margin-top: auto;
     margin-bottom: auto;*/
     position:fixed;
-    width:1vh;
-    height:2px;
     background-image: url(/SMB/img/bg/mario.png);
+    width:2vh;
+    height:4vh;
     image-rendering: pixelated;
     left:10px;
     top:200px;
