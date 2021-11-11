@@ -88,8 +88,9 @@ article{
   margin-bottom: auto;
   position:fixed;
   background-image: url(/SMB/img/bg/mario.png);
-  width:4vh;
-  height:8vh;
+  background-size:100% 100%;
+  width:64px;
+  height:128px;
   image-rendering: pixelated;
   left:10px;
   top: 200px;
