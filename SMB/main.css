@@ -111,11 +111,11 @@ article{
     margin-bottom: auto;*/
     position:fixed;
     background-image: url(/SMB/img/bg/mario.png);
-    width:2vh;
-    height:4vh;
+    width:3vh;
+    height:6vh;
     image-rendering: pixelated;
     left:10px;
-    top:200px;
+    top:64vh;
     z-index: 32;
     animation:
       x 2s linear infinite alternate,
