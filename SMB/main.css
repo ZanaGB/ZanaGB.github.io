@@ -96,7 +96,7 @@ article{
   top: 200px;
   z-index: 32;
   animation:
-    x 2s linear infinite,
+    x 4s linear infinite,
     y 1s infinite cubic-bezier(0,255,1,255);
 }
 @keyframes y {
