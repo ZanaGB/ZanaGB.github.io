@@ -107,8 +107,8 @@ article{
 }
 
 .mario{
-    margin-top: auto;
-    margin-bottom: auto;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
     position:fixed;
     width:1vh;
     height:2px;
