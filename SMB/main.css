@@ -69,14 +69,24 @@ article{
     background-color: #000000;
     position: relative;
     z-index: 16;
-    font-family: SuperMarioWorld;
-    color: #FFFFFF;
     padding: 4vh;
-    font-size: 1vw;
     margin-left: 2vh;
     margin-right: 2vh;
     margin-bottom: 4vh;
     /*margin-top: 4vh;*/
+}
+
+article.p{
+  font-family: SuperMarioWorld;
+  color: #FFFFFF;
+  font-size: 1vw;
+}
+
+article.h1{
+  font-family: MarioKart;
+  color: #FFFFFF;
+  font-size: 3vw;
+  text-align: center;
 }
 
 .blankspace{
@@ -93,16 +103,15 @@ article{
   height:128px;
   image-rendering: pixelated;
   left:10px;
-  top: 3vh;
+  top: 600px;
   z-index: 32;
   animation:
     x 4s linear infinite,
-    y 1s infinite cubic-bezier(0,255,1,255);
+    y 1s infinite cubic-bezier(0,511,1,511);
 }
 @keyframes y {
    to {
-    top:3vh;
-     /*top:499.5px;*/
+     top:599.5px;
     }
 }
 @keyframes x {
