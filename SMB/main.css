@@ -92,7 +92,7 @@ article{
   height:8vh;
   image-rendering: pixelated;
   left:10px;
-  /*top: 200px;*/
+  top: 200px;
   z-index: 32;
   animation:
     x 2s linear infinite alternate,
