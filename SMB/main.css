@@ -96,7 +96,7 @@ article{
   top: 200px;
   z-index: 32;
   animation:
-    x 2s linear infinite alternate,
+    x 2s linear infinite,
     y 1s infinite cubic-bezier(0,255,1,255);
 }
 @keyframes y {
@@ -106,18 +106,21 @@ article{
 }
 @keyframes x {
    0%{
-    transform: scaleX(-1);
-   }
-   1%{
+    left:10px;
     transform: scaleX(1);
    }
-   to {
-     left:250px;
+   49%{
+    transform: scaleX(1);
+   }
+   50%{
+    left:250px;
+    transform: scale(-1);
    }
    99%{
-    transform: scaleX(1);
+    transform: scaleX(-1);
    }
    100%{
+    left:10px;
     transform: scaleX(-1);
    }
    /*100%{
