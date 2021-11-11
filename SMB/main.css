@@ -79,7 +79,11 @@ article{
     /*margin-top: 4vh;*/
 }
 
-footer{
+.blankspace{
+  height:64vh;
+}
+
+.platform{
     border: 32px solid transparent;
     padding: 32px;
     background-size: 32px;
@@ -102,9 +106,29 @@ footer{
     image-rendering: pixelated;
 }
 
-.blankspace{
-  height:50vh;
+.mario{
+    position:fixed;
+    width:50px;
+    height:50px;
+    background: red;
+    left:10px;
+    top:200px;
+    animation:
+      x 2s linear infinite alternate,
+      y 1s infinite cubic-bezier(0,255,1,255);
+  }
+  @keyframes y {
+     to {
+       top:199.5px;
+     }
+  }
+  @keyframes x {
+     to {
+       left:250px;
+     }
 }
+
+
 
 .pixelart{
     image-rendering: pixelated;
