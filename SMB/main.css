@@ -134,7 +134,7 @@ article{
     position: fixed; 
     bottom: 0px;
     left: 0px;
-    margin: 0;
+    margin-top: 0px;
     background-image: url(/SMB/img/bg/filler.png);
     background-repeat: repeat;
     height:10vh;
