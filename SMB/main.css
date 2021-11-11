@@ -103,7 +103,7 @@ article h1{
   height:128px;
   image-rendering: pixelated;
   left:10px;
-  top: 600px;
+  top: 630px;
   z-index: 32;
   animation:
     x 4s linear infinite,
@@ -111,7 +111,7 @@ article h1{
 }
 @keyframes y {
    to {
-     top:599.5px;
+     top:629.5px;
     }
 }
 @keyframes x {
