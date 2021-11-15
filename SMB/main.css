@@ -168,6 +168,9 @@ article h1{
     image-rendering: pixelated;
 }
 
+.importantborder{
+  border: 16px dashed #ffffff;
+}
 
 .pixelart{
     image-rendering: pixelated;
