@@ -172,6 +172,13 @@ article h1{
   border: 16px dashed #ffffff;
 }
 
+.level img {
+  margin-bottom: 0px;
+  position: fixed; 
+  z-index: 16;
+  image-rendering: pixelated;
+}
+
 .pixelart{
     image-rendering: pixelated;
 }
@@ -183,6 +190,7 @@ article h1{
 	  flex-grow: 3;
 	  justify-content: center;
 	  align-items: center;
+    image-rendering: pixelated;
 }
 
 .Portfolio img{
