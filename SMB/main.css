@@ -174,9 +174,9 @@ article h1{
 
 .bush{
   background-image: url(/SMB/img/bg/bush.png);
-  position: fixed;
+  /*position: fixed;
   bottom:10vh;
-  /*margin-bottom: 0px;*/
+  margin-bottom: 0px;*/
   margin-left:16px;
   height: 10vh;
   min-width:100%;
