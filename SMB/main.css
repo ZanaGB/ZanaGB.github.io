@@ -174,9 +174,11 @@ article h1{
 
 .bush{
   background-image: url(/SMB/img/bg/bush.png);
-  position: relative;
-  margin-bottom: 0px;
+  /*position: relative;
+  margin-bottom: 0px;*/
+  margin-left:16px;
   height: 10vh;
+  repeat: no-repeat;
   z-index: 24;
   image-rendering: pixelated;
 }
