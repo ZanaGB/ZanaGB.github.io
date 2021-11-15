@@ -174,7 +174,7 @@ article h1{
 
 .level img {
   margin-bottom: 0px;
-  position: fixed; 
+  position: relative; 
   z-index: 16;
   image-rendering: pixelated;
 }
