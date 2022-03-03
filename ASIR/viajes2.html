@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body{
+            background-color: #CCCCFF;
+            font-family: SanFrancisco, Arial, Helvetica, sans-serif;
+            width: 100%;
+        }
+
+        nav{
+            background-color: #2222AA;
+            color: #ffffff;
+            display: flex;
+            justify-content: right;
+            height: 9vh;
+        }
+
+nav a{
+    color: #ffffff;
+    margin-right: 2vh;
+    font-family: SanFrancisco, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 3vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.enlaceactual{
+    font-family: SFBold, Arial, Helvetica, sans-serif;
+}
+
+
+nav img {
+    max-height:7vh;
+    margin-right: 2vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1{
+    color: #2222AA;
+    font-family: SFBold, Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+}
+
+.Contenedor {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-grow: 3;
+	justify-content: center;
+	align-items: center;
+    width: 95%;  
+    margin: auto;
+    /*margin-left: 0vh;
+    background-color: #000000;*/
+    max-height: 85%;
+}
+
+fieldset {
+    display: flex;
+	/*flex-wrap: wrap;*/
+	flex-direction: row;
+    /*flex-grow: 2;*/
+    justify-content: center;
+    width: 40vh;
+}
+
+.etiquetas{
+    display: flex;
+    flex-direction: column;
+    width: 18vh;
+}
+
+.etiquetas label{
+    height:2.5vh;
+    margin-top:0.25vh;
+    margin-bottom:0.25vh;
+    margin-left: auto;
+    margin-right: 0.5vh;
+}
+
+.selects{
+    display: flex;
+    flex-direction: column; 
+    width: 18vh;
+}
+
+.selects select{
+    height:2.5vh;
+    margin-top:0.25vh;
+    margin-bottom:0.25vh;
+}
+
+.selects input{
+    height:2.5vh;
+    margin-top:0.25vh;
+    margin-bottom:0.25vh;
+}
+
+/*input {
+    display: block;
+}*/
+
+.mapa{
+    background-color: #000000;
+    width: 25%;
+    height: 55%;
+}
+
+.imagenes {
+    width: 20vh;
+}
+
+.imagenes img{
+    width:20vh;
+}
+
+
+    </style>
+    
+    <title>Agencia Viajes</title>
+</head>
+<body>
+    <nav>
+        <img src="./logo.png">
+        <a href="#">Inicio</a>
+        <a class="enlaceactual" href="#" >Vuelos</a>
+        <a href="#">Hoteles</a>
+        <a href="#">Vuelos + Hoteles</a>
+        <a href="#">Coches</a>
+        <a href="#">Traslados Aeropuertos</a>
+    </nav>
+    <main>
+        <h1>Encuentra ofertas para todas las temporadas</h1>
+        <article class="Contenedor">
+        <div class="formulario">
+            <form action="" target="_blank" method="get">
+                <fieldset>
+                    <div class="etiquetas">
+                        <label for="origen">Origen:</label>
+                        <label for="destino">Destino:</label>
+                        <label for="clases">Clase:</label>
+                        <label for="fecha_salida">Fecha de Salida:</label>
+                        <label for="vuelos">Vuelos Directos?:</label>
+                    </div>
+                    <div class="selects">
+                    <select id="origen" name="origen">
+                        <option value="madrid">Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="tenerife">Tenerife</option>
+                    </select>
+                    <select id="destino" name="destino">
+                        <option value="madrid">Madrid</option>
+                        <option value="barcelona">Barcelona</option>
+                        <option value="malaga">Málaga</option>
+                        <option value="tenerife">Tenerife</option>
+                    </select>
+                    <select id="clases" name="clases">
+                        <option value="turista">Turista</option>
+                        <option value="economica">Economica</option>
+                        <option value="business">Business</option>
+                        <option value="primera">Primera Clase</option>
+                    </select>
+                    <input type="date" id="fecha_salida" name="fecha_salida">
+                    <input type="checkbox" id="vuelos" name="vuelos">
+                    <input type="submit" value="Buscar Vuelos">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="imagenes">
+            <img src="./foto1.jpg">
+            <img src="./foto2.jpg">
+        </div>
+        <div class="mapa">
+            <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps&amp;q=Av.%20del%20Oeste,%20s/n,%2028922%20Alcorc%C3%B3n,%20Madrid+()&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="450`"></iframe>
+        </div>
+        </article>
+    </main>
+</body>
+</html>
