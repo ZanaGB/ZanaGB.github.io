@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formulario SYSTEM "./BunnyForm.dtd">
+<?xml-stylesheet type="text/xsl" href="./BunnyForm.xslt"?>
+<formulario>
+	<pregunta>
+		<grupo>OrejaLarga</grupo>
+		<enunciado>¿Qué Tipo de Conejo tiene las orejas mas largas?</enunciado>
+		<opcion>Conejo de Flandes</opcion>
+		<opcion correcto="yes">Lop Inglés</opcion>
+		<opcion>Liebre Belga</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>OrejaCaida</grupo>
+		<enunciado>De los Siguientes, ¿Cuál tiene las orejas caídas?</enunciado>
+		<opcion correcto="yes">Conejo Holandes</opcion>
+		<opcion>Conejo de los Paises Bajos</opcion>
+		<opcion>Conejo Polaco</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>ConejoEnano</grupo>
+		<enunciado>¿Cuál de estos conejos es el mas pequeño?</enunciado>
+		<opcion correcto="yes">Conejo Pigmeo</opcion>
+		<opcion>Conejo Mini Lop (Americano)</opcion>
+		<opcion>Conejo Hotot Enano</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>ConejoPeludo</grupo>
+		<enunciado>El conejo mas peludo es el conejo...</enunciado>
+		<opcion>Cabeza de León</opcion>
+		<opcion>Lop Peludo Americano</opcion>
+		<opcion correcto="yes">Angora</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>ConejoEspacial</grupo>
+		<enunciado>Uno de estos conejos voló al espacio:</enunciado>
+		<opcion>Gajumaru</opcion>
+		<opcion correcto="yes">Marfusha</opcion>
+		<opcion>Darius</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>SaltoMaximo</grupo>
+		<enunciado>¿Cuanto puede saltar una liebre, como máximo?</enunciado>
+		<opcion>99 Centímetros</opcion>
+		<opcion correcto="yes">3.65 Metros</opcion>
+		<opcion>255 Centímetros</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>IslaConejos</grupo>
+		<enunciado>¿Cuál es el nombre de la isla de los conejos en japón?</enunciado>
+		<opcion>Usagishima</opcion>
+		<opcion>Hiroshima</opcion>
+		<opcion correcto="yes">Okunoshima</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>ConejoProhibido</grupo>
+		<enunciado>Los conejos están prohibidos en</enunciado>
+		<opcion correcto="yes">Australia</opcion>
+		<opcion>Austria</opcion>
+		<opcion>Alaska</opcion>
+	</pregunta>
+	<pregunta>
+		<grupo>MeneoNariz</grupo>
+		<enunciado>La frecuencia máxima promedio de movimiento de la nariz de un conejo es de...</enunciado>
+		<opcion>Un hercio</opcion>
+		<opcion>Cinco hercios</opcion>
+		<opcion correcto="yes">Dos hercios y medio</opcion>
+	</pregunta>
+	<pregunta>
+		<enunciado>Las liebres son...</enunciado>
+		<opcion>Carnivoros Estrictos</opcion>
+		<opcion correcto="yes">Omnivoros Oportunistas</opcion>
+		<opcion>Hervivoros Estrictos</opcion>
+	</pregunta>
+</formulario>
