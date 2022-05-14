@@ -2,6 +2,8 @@ body{
 	background-color:#9999BB;
     width: 75%;
     margin:auto;
+    margin-top:10vh;
+    margin-bottom:10vh;
 }
 
 body h1{
