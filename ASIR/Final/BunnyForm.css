@@ -10,12 +10,14 @@ body h1{
     font-family: Arial, Helvetica, sans-serif;
     color:#FFFFFF;
     font-size:5vw;
+    text-align: center;
 }
 
 body h2{
     font-family: Arial, Helvetica, sans-serif;
     color:#FFFFFF;
     font-size:3.5vw;
+    text-align: center;
 }
 
 fieldset{
