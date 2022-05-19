@@ -27,6 +27,7 @@
 						<xsl:attribute name="href">
 							<xsl:value-of select="link"/>	        
 						</xsl:attribute>
+						link
 					</a>
 					<p>
 						<xsl:value-of select="Descripcion"/>
